@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stopwatch</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch</h1>
+    <div class="time-display">
+      <span id="hr">00</span>:<span id="min">00</span>:<span id="sec">00</span>:<span id="count">00</span>
+    </div>
+
+    <div class="controls">
+      <button id="start">Start</button>
+      <button id="lap" style="display: none;">Lap</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div class="laps"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
